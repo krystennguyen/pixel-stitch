@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/pixel-stitch/static/css/main.650f5cb6.css",
-    "main.js": "/pixel-stitch/static/js/main.5b641e10.js",
+    "main.css": "/pixel-stitch/static/css/main.a9841ea0.css",
+    "main.js": "/pixel-stitch/static/js/main.cc976124.js",
     "static/js/453.d0b72fa0.chunk.js": "/pixel-stitch/static/js/453.d0b72fa0.chunk.js",
-    "static/media/header.png": "/pixel-stitch/static/media/header.8b7f800ef0e7e8e5f823.png",
     "static/media/eraser.png": "/pixel-stitch/static/media/eraser.a85373849736c57c272f.png",
     "static/media/bucket.png": "/pixel-stitch/static/media/bucket.b6c0d92ec0dd4188574e.png",
     "static/media/pencil.png": "/pixel-stitch/static/media/pencil.ceb1cf96acd59737ca72.png",
     "index.html": "/pixel-stitch/index.html",
-    "main.650f5cb6.css.map": "/pixel-stitch/static/css/main.650f5cb6.css.map",
-    "main.5b641e10.js.map": "/pixel-stitch/static/js/main.5b641e10.js.map",
+    "main.a9841ea0.css.map": "/pixel-stitch/static/css/main.a9841ea0.css.map",
+    "main.cc976124.js.map": "/pixel-stitch/static/js/main.cc976124.js.map",
     "453.d0b72fa0.chunk.js.map": "/pixel-stitch/static/js/453.d0b72fa0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.650f5cb6.css",
-    "static/js/main.5b641e10.js"
+    "static/css/main.a9841ea0.css",
+    "static/js/main.cc976124.js"
   ]
 }
