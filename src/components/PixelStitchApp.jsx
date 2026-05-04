@@ -181,6 +181,18 @@ export default function PixelStitchApp() {
 
   return (
     <div className="app-shell">
+      {/* Top Bar */}
+      <header className="top-bar">
+        <div className="top-brand">
+          <h1 className="brand-name">Pixel Stitch</h1>
+        </div>
+        <div className="top-actions">
+          <button className="top-action-btn" onClick={handleExportPNG} title="Export PNG">Export PNG</button>
+          <button className="top-action-btn" onClick={undo} disabled={undoStack.length === 0} title="Undo (Ctrl+Z)">Undo</button>
+          <button className="top-action-btn" onClick={redo} disabled={redoStack.length === 0} title="Redo (Ctrl+Y)">Redo</button>
+        </div>
+      </header>
+
       {/* Main layout */}
       <div className="main-layout">
         <Toolbar
@@ -199,11 +211,6 @@ export default function PixelStitchApp() {
           onOverlayOpacityChange={setOverlayOpacity}
           showStitch={showStitch}
           onToggleStitch={() => setShowStitch(v => !v)}
-          onExportPNG={handleExportPNG}
-          onUndo={undo}
-          onRedo={redo}
-          canUndo={undoStack.length > 0}
-          canRedo={redoStack.length > 0}
         />
 
         {/* Canvas area */}

@@ -25,11 +25,6 @@ export default function Toolbar({
   onOverlayOpacityChange,
   showStitch,
   onToggleStitch,
-  onExportPNG,
-  onUndo,
-  onRedo,
-  canUndo,
-  canRedo,
 }) {
   const [newW, setNewW] = useState(String(gridWidth));
   const [newH, setNewH] = useState(String(gridHeight));
@@ -59,9 +54,6 @@ export default function Toolbar({
         >
           New Grid
         </button>
-        <button className="toolbar-btn" onClick={onExportPNG}>Export PNG</button>
-        <button className="toolbar-btn" onClick={onUndo} disabled={!canUndo}>Undo</button>
-        <button className="toolbar-btn" onClick={onRedo} disabled={!canRedo}>Redo</button>
       </div>
 
       <div className="tool-divider" />
